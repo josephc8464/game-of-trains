@@ -412,6 +412,8 @@ void RegularDraw(card cardDeck[], card player[][2], card upPile[], int *draw, in
     PrintHand(player);
 }
 
+
+//FIXME -- need to implement other types of shift
 void ShiftingPower(card player[][2], int typeShift) {
     
     int choice = 0;
@@ -441,9 +443,13 @@ void ShiftingPower(card player[][2], int typeShift) {
     }
     
 }
+
+//FIXME
 void LockingPower(card player[][2], card *lock) {
     
 }
+
+//FIXME
 void RemovePower(card player1[][2], card player2[][2], card cardDeck[], card discard[], int typeRemove, int *draw) {
     
     if(typeRemove == 5) {
